@@ -1,0 +1,14 @@
+body
+{
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 755px){
+    .buscar{
+        width: 64%;
+    }
+    .logueo{
+        width: 11%;
+    }
+}

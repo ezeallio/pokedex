@@ -1,0 +1,29 @@
+body
+{
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 755px){
+    .buscador{
+        width: 63%;
+    }
+    .iniciocierre{
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 485px){
+    #textoP{
+        margin-left: 27% !important;
+    }
+    #tipoP{
+        margin-left: 1% !important;
+    }
+    #botones{
+        float: inherit !important;
+        width: 100%;
+        margin: 2%;
+        justify-content: center;
+    }
+}
